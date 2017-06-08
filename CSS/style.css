@@ -1,11 +1,15 @@
 	body {
-		background-image: linear-gradient(0deg, #FFF8DC, #FFFFFF ); 
+		background: #FFFFFF; 
 	}
 	.line {
 		border-top: 5px solid #7FFFD4;
 		margin: auto;
 		width: 650px;
 		background: #FFF8DC;
+	}
+	.noline {
+		margin: auto;
+		width: 650px;
 	}
 	header {
 		margin: auto;
