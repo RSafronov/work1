@@ -35,7 +35,13 @@
 	} /* при	нажатии */
 	.pmini {
 		font-size: 80%;
+		padding-bottom: 60px;
 	}
 	div.knopka {
 		margin: 50px;
+	}
+	.pbot {
+		margin: auto;
+		width: 650px;
+		padding: 45px 0px;
 	}
