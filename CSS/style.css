@@ -1,6 +1,11 @@
 	body {
 		background: #FFFFFF; 
 	}
+	h2 {
+		width: 520px;
+		margin: auto;
+		margin-top: 45px;
+	}
 	.line {
 		border-top: 5px solid #7FFFD4;
 		margin: auto;
@@ -14,11 +19,18 @@
 	.pdiv {
 		margin-left: 35px;
 	}
-	h2 {
-		width: 520px;
-		margin: auto;
-		margin-top: 45px;
+	.pmini {
+		font-size: 80%;
+		padding-bottom: 60px;
 	}
+	.pbot {
+		margin: auto;
+		width: 650px;
+		padding: 45px 0px;
+	}
+
+		/*___________________*/
+
 	a.knopka {
   		color: #fff; /* цвет текста */
   		text-decoration: none; /* убирать подчёркивание у ссылок */
@@ -34,18 +46,12 @@
 	a.knopka:active { 
 		background: #3CB371; 
 	} /* при	нажатии */
-	.pmini {
-		font-size: 80%;
-		padding-bottom: 60px;
-	}
 	div.knopka {
 		margin: 50px;
 	}
-	.pbot {
-		margin: auto;
-		width: 650px;
-		padding: 45px 0px;
-	}
+	
+		/*________________*/
+
 	ul {
 		list-style-type: none;
 		vertical-align: top;
