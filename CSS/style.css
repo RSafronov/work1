@@ -1,45 +1,111 @@
-	body {
-		background: #FFFFFF; 
-	}
-	.line {
-		border-top: 5px solid #7FFFD4;
-		margin: auto;
-		width: 650px;
-		background: #FFF8DC;
-	}
-	.noline {
-		margin: auto;
-		width: 650px;
-	}
-	header {
-		margin: auto;
-		width: 650px;
-	}
-	.pdiv {
-		margin-left: 35px;
-	}
-	h2 {
-		width: 520px;
-		margin: auto;
-		margin-top: 45px;
-	}
-	a.knopka {
-  		color: #fff; /* цвет текста */
-  		text-decoration: none; /* убирать подчёркивание у ссылок */
-  		user-select: none; /* убирать выделение текста */
-  		background: #3CB371; /* фон кнопки */
-  		padding: .7em 1.5em; /* отступ от текста */
-  		outline: none; /* убирать контур в Mozilla */
-	} 
-	a.knopka:hover { 
-		background: #2E8B57;
-	} /* при наведении 	 курсора мышки */
-	a.knopka:active { 
-		background: #3CB371; 
-	} /* при	нажатии */
-	.pmini {
-		font-size: 80%;
-	}
-	div.knopka {
-		margin: 50px;
-	}
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 45px;
+  text-align: center;
+  width: 520px;
+}
+
+a {
+  color: #000;
+}
+
+span.serif {
+  font-family: serif ;
+}
+
+img.logo {
+   height: 55px;
+   width: 55px;
+}
+
+img.center_img {
+  height: 200px;
+  width: 200px
+}
+
+p.tnx {
+  font-size: .9em;
+  line-height: 0px;
+}
+
+.line {
+  background: #fff8dc;
+  border-top: 5px solid #7fffd4;
+  margin: auto;
+  width: 650px;
+}
+
+.noline {
+  margin: auto;
+  text-align: center;
+  width: 650px;
+}
+
+.left_text {
+  margin: auto;
+  text-align: left;
+  width: 650px;
+}
+
+.pdiv {
+  margin-left: 35px;
+}
+
+.pmini {
+  font-size: .8em;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.pbot {
+  font-size: .7em;
+  margin: auto;
+  padding: 45px 0px;
+  width: 650px;
+}
+
+  /*___________________*/
+
+a.knopka {
+  background: #3cb371; /* фон кнопки */
+  border-radius: 10px; /* уголки*/
+  color: #fff; /* цвет текста */
+  outline: none; /* убирать контур в mozilla */
+  padding: .7em 110px; /* отступ от текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+}
+
+a.knopka:hover {
+  background: #2e8b57;  /* при наведении   курсора мышки */
+}
+
+a.knopka:active {
+  background: #3cb371;  /* при  нажатии */
+
+}
+div.knopka {
+  margin: 50px;
+  text-align: center;
+}
+
+  /*________________*/
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+}
