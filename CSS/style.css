@@ -79,16 +79,16 @@ a.knopka {
   padding: .7em 110px; /* отступ от текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
-} 
+}
 
-a.knopka:hover { 
+a.knopka:hover {
   background: #2e8b57;  /* при наведении   курсора мышки */
-} 
+}
 
-a.knopka:active { 
+a.knopka:active {
   background: #3cb371;  /* при  нажатии */
 
-} 
+}
 div.knopka {
   margin: 50px;
   text-align: center;
